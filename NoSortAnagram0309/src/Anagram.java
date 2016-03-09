@@ -39,6 +39,7 @@ public class Anagram {
 			}
 		}
 		
+		//알파벳의 갯수를 비교해서 단어에 포함된 알파벳의 갯수가 같으면 아나 그램으로 판별한다. 
 		if(Arrays.equals(alphabetCnt1, alphabetCnt2)){
 			System.out.println("anagram");
 		}else{
